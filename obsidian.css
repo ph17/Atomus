@@ -210,8 +210,12 @@ mjx-container[jax="CHTML"] {
 .cm-s-obsidian
   span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end),
 .markdown-preview-view code {
-  /* fix `` tag color */
-  color: #98c379;
+  color: #c8d3f5;
+  background-color: #191a2a;
+  border: 1px solid #131421;
+  font-family: var(--font-monospace);
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
 }
 
 .cm-s-obsidian span.cm-inline-code,

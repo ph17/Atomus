@@ -45,6 +45,12 @@
   --cyan: #8be9fd;
   --yellow-code: #f1fa8c;
   --purple-code: #bd93f9;
+  --table-header-background: var(--background-secondary-alt);
+  --table-header-background-hover: var(--background-secondary-alt);
+  --table-row-alt-background: var(--background-secondary);
+  --table-row-background-hover: #36454f;
+  --table-border-color: var(--gray-1);
+  --table-header-border-color: var(--gray-1);
 }
 
 body {

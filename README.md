@@ -10,6 +10,4 @@ The codeblock theme is based on [Dracula](https://github.com/dracula/dracula-the
 
 ![Screenshot](Screenshot_2.png)
 
-<p align="center">
- [Vault](https://github.com/chhoumann/DemoVault) with Dataview and Calendar plugins
-</p>_
+_<p align="center"> [Vault](https://github.com/chhoumann/DemoVault) with Dataview and Calendar plugins </p>_

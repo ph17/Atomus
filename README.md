@@ -1,11 +1,12 @@
-# Obsidian Atom
+# Atomus
 
-A theme for Obsidian based on Atom's One Dark and One Light themes.
+A theme based on the late Atom Editor.
 
-![Screenshot](screenshot-hybrid.png)
+This is a fork (duplicate) of [obsidian-atom](https://github.com/kognise/obsidian-atom) with some changes based in my opinion.
 
-## Installation
+The codeblock theme is based on [Dracula](https://github.com/dracula/dracula-theme).
 
-1. Download obsidian.css to your Obsidian vault folder
-2. In Obsidian, click Settings -> Plugins make sure `Custom CSS` is enabled
-3. Pick either light or dark theme in Obsidian's appearance settings!
+![Screenshot](Screenshot_1.png)
+
+![Screenshot](Screenshot_2.png)
+_<p style="text-align: center;"> [Vault](https://github.com/chhoumann/DemoVault) with Dataview and Calendar plugins</p>_

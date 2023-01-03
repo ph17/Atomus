@@ -129,20 +129,29 @@ a.tag:hover {
   vertical-align: baseline;
 }
 
+.markdown-preview-view .task-list-item-checkbox:hover {
+  background-color: var(--gray-2);
+}
+
+.task-list-item-checkbox::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
 .markdown-preview-view .task-list-item-checkbox:checked {
   border: none;
   background-color: var(--interactive-accent);
 }
 
-.markdown-preview-view .task-list-item-checkbox:checked::before {
-  content: " ";
+.markdown-preview-view .task-list-item-checkbox:checked::after {
+  content: "";
   position: absolute;
-  background-color: white;
-  left: 2px;
-  top: 2px;
-  right: 2px;
-  bottom: 2px;
-  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpolygon points='5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039'%3E%3C/polygon%3E%3C/svg%3E");
+  background-color: #ffffff;
+  display: block;
+  top: 1px;
+  left: 1px;
+  -webkit-mask-size: 100%;
 }
 
 .markdown-preview-view .task-list-item.is-checked a {

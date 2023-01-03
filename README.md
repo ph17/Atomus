@@ -2,7 +2,7 @@
 
 A theme based on the late Atom Editor.
 
-This is a fork (duplicate) of [obsidian-atom](https://github.com/kognise/obsidian-atom) with some changes based in my opinion.
+This is a fork (duplicate) of [obsidian-atom](https://github.com/kognise/obsidian-atom) with some changes based on my opinion.
 
 The codeblock theme is based on [Dracula](https://github.com/dracula/dracula-theme).
 

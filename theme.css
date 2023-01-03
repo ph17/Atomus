@@ -502,3 +502,7 @@ pre.line-numbers > code {
   padding-right: 0.8em !important;
   text-align: right !important;
 }
+
+.workspace-leaf-resize-handle {
+  opacity: 0;
+}

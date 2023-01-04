@@ -506,3 +506,7 @@ pre.line-numbers > code {
 .workspace-leaf-resize-handle {
   opacity: 0;
 }
+
+.accesskey {
+  text-decoration: none;
+}

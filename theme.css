@@ -13,6 +13,10 @@
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
+  --accent-h: 219;
+  --accent-s: 56%;
+  --accent-d: 55%;
+  --accent-l: 58%;
   --text-accent: #61afef;
   --text-accent-hover: #69bafd;
   --text-normal: #dcddde;
@@ -25,9 +29,6 @@
   --text-on-accent: #dcddde;
   --interactive-normal: #20242b;
   --interactive-hover: #353b47;
-  --interactive-accent: #4c78cc;
-  --interactive-accent-rgb: 76, 120, 204;
-  --interactive-accent-hover: #5082df;
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);

@@ -291,7 +291,7 @@ b,
 }
 
 .status-bar {
-  --bar-vertical-padding: 4px;
+  --bar-vertical-padding: 2px;
   --bar-height: calc(22px + (var(--bar-vertical-padding) * 2));
   line-height: 20px;
   padding: 0 20px;
@@ -299,6 +299,11 @@ b,
   max-height: var(--bar-height);
   min-height: var(--bar-height);
   overflow: hidden;
+  color: var(--text-faint);
+}
+
+.status-bar:hover {
+  color: var(--text-normal);
 }
 
 .status-bar-item {
@@ -511,4 +516,3 @@ pre.line-numbers > code {
 .tasks-modal .with-accesskeys .accesskey {
   text-decoration: none;
 }
-

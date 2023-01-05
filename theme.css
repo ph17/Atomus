@@ -507,6 +507,8 @@ pre.line-numbers > code {
   opacity: 0;
 }
 
-.accesskey {
+.tasks-modal .with-accesskeys .accesskey-first::first-letter,
+.tasks-modal .with-accesskeys .accesskey {
   text-decoration: none;
 }
+

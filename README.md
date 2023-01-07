@@ -10,6 +10,8 @@ This is a fork (duplicate) of [obsidian-atom](https://github.com/kognise/obsidia
 
 _<p align="center"> [Vault](https://github.com/chhoumann/DemoVault) with Dataview and Calendar plugins </p>_
 
+---
+
 - The codeblock theme is based on [Dracula](https://github.com/dracula/dracula-theme).
 
 - New default accent color.

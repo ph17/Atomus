@@ -56,6 +56,8 @@
 
 body {
   -webkit-font-smoothing: auto;
+  --darker-graph-line: hsl(var(--accent-h), var(--accent-s), 30%);
+  --graph-line: var(--darker-graph-line);
 }
 
 .titlebar {

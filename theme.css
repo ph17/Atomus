@@ -17,8 +17,6 @@
   --accent-s: 56%;
   --accent-d: 55%;
   --accent-l: 58%;
-  --text-accent: #61afef;
-  --text-accent-hover: #69bafd;
   --text-normal: #dcddde;
   --text-muted: #888;
   --text-faint: rgb(81, 86, 99);
@@ -512,7 +510,7 @@ pre.line-numbers > code {
 }
 
 .workspace-leaf-resize-handle {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .tasks-modal .with-accesskeys .accesskey-first::first-letter,

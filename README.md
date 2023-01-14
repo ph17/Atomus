@@ -13,13 +13,8 @@ _<p align="center"> [Vault](https://github.com/chhoumann/DemoVault) with Datavie
 ---
 
 - The codeblock theme is based on [Dracula](https://github.com/dracula/dracula-theme).
-
 - New default accent color.
-
 - Accent color can be changed.
-
 - Graph View lines match the accent color but they're slightly darker.
-
 - More discrete status bar.
-
 - And some other minor changes...

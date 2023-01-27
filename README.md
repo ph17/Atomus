@@ -17,4 +17,7 @@ _<p align="center"> [Vault](https://github.com/chhoumann/DemoVault) with Datavie
 - Accent color can be changed.
 - Graph View lines match the accent color but they're slightly darker.
 - More discrete status bar.
+- [Full Calendar Plugin](https://github.com/davish/obsidian-full-calendar) support.
 - And some other minor changes...
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ph17)

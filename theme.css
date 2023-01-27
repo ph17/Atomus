@@ -12,7 +12,6 @@
   --background-modifier-error: #3d0000;
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
-  --background-modifier-cover: rgba(0, 0, 0, 0.6);
   --accent-h: 219;
   --accent-s: 56%;
   --accent-d: 55%;
@@ -152,7 +151,7 @@ a.tag:hover {
 }
 
 .markdown-preview-view .task-list-item-checkbox:hover {
-  background-color: var(--gray-2);
+  background-color: rgba(171, 178, 191, 0.3);
 }
 
 .task-list-item-checkbox::after {
@@ -378,6 +377,7 @@ a:hover,
 .file-embed-link {
   left: 8px;
   right: unset;
+  color: var(--text-error);
 }
 
 code[class*="language-"],

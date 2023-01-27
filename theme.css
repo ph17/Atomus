@@ -538,3 +538,59 @@ pre.line-numbers > code {
 .tasks-modal .with-accesskeys .accesskey {
   text-decoration: none;
 }
+
+/* Full Calendar plugin */
+
+.fc {
+  --fc-now-indicator-color: var(--text-accent);
+  --fc-today-bg-color: rgba(10, 10, 10, 0.3);
+}
+
+.fc-event-main {
+  background-color: var(--interactive-accent);
+}
+.fc-timegrid-event.fc-v-event.fc-timegrid-event-short.fc-event.fc-event-draggable.fc-event-resizable.fc-event-start.fc-event-end.fc-event-past.fc-event-today,
+.fc-timegrid-event.fc-v-event.fc-timegrid-event-short.fc-event.fc-event-draggable.fc-event-resizable.fc-event-start.fc-event-end.fc-event-future,
+.fc-timegrid-event.fc-v-event.fc-timegrid-event-short.fc-event.fc-event-draggable.fc-event-resizable.fc-event-start.fc-event-end.fc-event-past {
+  background-color: var(--interactive-accent) !important;
+  border-color: var(--interactive-accent) !important;
+}
+
+.fc-timegrid-event.fc-v-event.fc-timegrid-event-short.fc-event.fc-event-draggable.fc-event-resizable.fc-event-start.fc-event-end.fc-event-today {
+  background-color: var(--interactive-accent) !important;
+  border-color: var(--text-accent-hover) !important;
+}
+.fc-daygrid-event-dot,
+.fc-list-event-dot {
+  border-color: var(--interactive-accent) !important;
+}
+
+body
+  > div.modal-container.mod-dim
+  > div.modal
+  > div.modal-content
+  > form
+  > p:nth-child(7)
+  > span
+  > button {
+  background-color: hsl(0, 98%, 69%) !important;
+  color: #fefdff !important;
+  border-color: hsl(0, 98%, 69%) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+}
+
+body
+  > div.modal-container.mod-dim
+  > div.modal
+  > div.modal-content
+  > form
+  > p:nth-child(7)
+  > span
+  > button:hover {
+  background-color: hsl(0, 98%, 75%) !important;
+  color: #fefdff !important;
+  border-color: hsl(0, 98%, 75%) !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+}

@@ -45,10 +45,7 @@
   --purple-code: #bd93f9;
   --table-header-background: var(--background-secondary-alt);
   --table-header-background-hover: var(--background-secondary-alt);
-  --table-row-alt-background: var(--background-secondary);
-  --table-row-background-hover: rgba(54, 69, 79, 0.4);
-  --table-border-color: var(--gray-1);
-  --table-header-border-color: var(--gray-1);
+  --table-row-alt-background: transparent;
 }
 
 body {
@@ -615,4 +612,8 @@ body
 
 .heading-collapse-indicator.collapse-indicator.collapse-icon::before {
   color: var(--interactive-accent);
+}
+
+.markdown-preview-view table tr:nth-child(even) {
+    background-color: #20242b;
 }

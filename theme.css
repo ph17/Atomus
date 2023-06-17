@@ -46,6 +46,7 @@
   --table-header-background: var(--background-secondary-alt);
   --table-header-background-hover: var(--background-secondary-alt);
   --table-row-alt-background: transparent;
+  --table-border-color: var(--gray-1);
 }
 
 body {

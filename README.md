@@ -2,7 +2,7 @@
 
 A theme based on the late Atom Editor.
 
-This is a fork (duplicate) of [obsidian-atom](https://github.com/kognise/obsidian-atom) with some changes based on my opinion.
+This is a fork of [obsidian-atom](https://github.com/kognise/obsidian-atom) with some changes based on my opinion.
 
 ![Screenshot](Screenshot_2.png)
 

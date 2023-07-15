@@ -38,6 +38,7 @@
   --blue: #61afef;
   --yellow: #e5c07b;
   --pink: #ff79c6;
+  --pink-two:#ff77cc;
   --green: #50fa7b;
   --comment: #6272a4;
   --cyan: #8be9fd;
@@ -615,6 +616,23 @@ body
   color: var(--interactive-accent);
 }
 
-.markdown-preview-view table tr:nth-child(even) {
-    background-color: #20242b;
+.markdown-preview-view table tr:nth-child(even), .markdown-source-view table tr:nth-child(even) {
+  background-color: #20242b;
 }
+
+/* Header Colors */
+.cm-header-1 { color: var(--pink-two) !important; } /* Header 1 */
+.cm-header-2 { color: var(--purple-code) !important; } /* Header 2 */
+.cm-header-3 { color: var(--green) !important; } /* Header 3 */
+.cm-header-4 { color: var(--yellow-code) !important; } /* Header 4 */
+.cm-header-5 { color: var(--cyan) !important; } /* Header 5 */
+.cm-header-6 { color: var(--yellow) !important; } /* Header 6 */
+
+.markdown-preview-view h1 { color: var(--pink-two) !important; } /* Header 1 */
+.markdown-preview-view h2 { color: var(--purple-code) !important; } /* Header 2 */
+.markdown-preview-view h3 { color: var(--green) !important; } /* Header 3 */
+.markdown-preview-view h4 { color: var(--yellow-code) !important; } /* Header 4 */
+.markdown-preview-view h5 { color: var(--cyan) !important; } /* Header 5 */
+.markdown-preview-view h6 { color: var(--yellow) !important; } /* Header 6 */
+
+
